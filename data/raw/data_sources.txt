@@ -1,0 +1,7 @@
+File : cybersecurity_risk.csv
+Source : https://www.kaggle.com/datasets/thedevastator/exploring-cybersecurity-risk-via-2022-cisa-vulne
+Description: This dataset presents an in-depth exploration of the security vulnerabilities across the United States from the CISA Known Exploited Vulnerabilities catalog for 2022. 
+
+File: cybersecurity_phishing.csv
+Source: https://www.kaggle.com/datasets/michellevp/dataset-phishing-domain-detection-cybersecurity
+Description: This dataset comprises a comprehensive collection of features extracted from URLs, designed to facilitate the detection and analysis of phishing domains.
