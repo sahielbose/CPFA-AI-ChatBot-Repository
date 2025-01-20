@@ -5,3 +5,7 @@ Description: This dataset presents an in-depth exploration of the security vulne
 File: cybersecurity_phishing.csv
 Source: https://www.kaggle.com/datasets/michellevp/dataset-phishing-domain-detection-cybersecurity
 Description: This dataset comprises a comprehensive collection of features extracted from URLs, designed to facilitate the detection and analysis of phishing domains.
+
+File: cyber_data.csv
+Source: https://huggingface.co/datasets/zefang-liu/secqa
+Description : Hugging Face (data set prepared to train LLMs using cybersecurity knowledge)
