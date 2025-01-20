@@ -1,20 +1,14 @@
 import numpy as np
 import pandas as pd
 
-# Cleaning Cybersecurity risk dataset
-df_riskdata = pd.read_csv('data/raw/cybersecurity_risk.csv')
+# Cleaning Cybersecurity  dataset
+df = pd.read_csv('data/raw/cyber_data.csv')
 
-#TODO: Perform data cleaning steps
-print(df_riskdata.info())
+for index, row in df.iterrows():
+    ans_col = row['Answer']
+    ans = row[ans_col]
+    df.at[index, 'Answer'] = ans
 
-#delete notes column as it contains all nulls
-del df_riskdata['notes']
+df.drop(['A', 'B', 'C', 'D'], axis=1,inplace=True)
 
-df_riskdata.to_csv('data/processed/cybersecurity_risk_clean.csv', index=False)
-
-# Cleaning Phishing dataset
-df_phishdata = pd.read_csv('data/raw/cybersecurity_phishing.csv')
-
-#TODO: Perform data cleaning steps
-
-df_phishdata.to_csv('data/processed/ccybersecurity_phishing_clean.csv', index=False)
+df.to_csv('data/processed/cyber_data.csv', index=False)
