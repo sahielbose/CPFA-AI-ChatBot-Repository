@@ -1,0 +1,135 @@
+[
+  {
+      "intent": "phishing_definition",
+      "patterns": [
+          "What is phishing?",
+          "Can you explain phishing emails?",
+          "Define phishing",
+          "What does phishing mean in cybersecurity?",
+          "Explain phishing in simple terms",
+          "Can you describe phishing in one sentence?"
+      ],
+      "responses": [
+          "Phishing is a cyberattack where scammers impersonate legitimate entities to trick people into revealing sensitive information.",
+          "Phishing emails are fraudulent messages that try to steal login credentials, credit card numbers, or personal data.",
+          "Phishing is a form of online fraud where attackers pretend to be trusted sources to deceive victims into providing information."
+      ]
+  },
+  {
+      "intent": "phishing_purpose",
+      "patterns": [
+          "How does phishing work?",
+          "What are phishing scams?",
+          "What is the main goal of phishing attacks?",
+          "Why do hackers use phishing techniques?",
+          "Why is phishing dangerous?"
+      ],
+      "responses": [
+          "Phishing works by sending fake messages that trick recipients into clicking malicious links or entering their credentials.",
+          "The goal of phishing is to steal sensitive data, such as passwords, credit card numbers, or social security details.",
+          "Hackers use phishing because it's an easy and effective way to gain unauthorized access to personal or corporate accounts.",
+          "Phishing is dangerous because it can lead to identity theft, financial loss, and even full-scale data breaches."
+      ]
+  },
+  {
+      "intent": "phishing_methods",
+      "patterns": [
+          "How do phishing emails work?",
+          "What are common phishing techniques?",
+          "What are the types of phishing attacks?",
+          "Tell me about spear phishing",
+          "What is whaling in phishing?",
+          "What is clone phishing?",
+          "What is vishing?",
+          "What is smishing?",
+          "What is pharming?"
+      ],
+      "responses": [
+          "Phishing emails trick users into clicking malicious links, downloading malware, or providing sensitive details like passwords and credit card numbers.",
+          "Spear phishing is a targeted attack where scammers customize emails to fool specific individuals or organizations.",
+          "Whaling attacks target high-profile individuals, such as executives or government officials, to steal sensitive company data.",
+          "Clone phishing involves duplicating a legitimate email but replacing links or attachments with malicious ones.",
+          "Vishing is voice phishing, where scammers call victims pretending to be from banks or tech support to steal data.",
+          "Smishing is phishing via SMS, where scammers send fake text messages with malicious links.",
+          "Pharming redirects users from legitimate websites to fake ones to steal credentials."
+      ]
+  },
+  {
+      "intent": "phishing_detection",
+      "patterns": [
+          "How can I detect phishing emails?",
+          "What are the signs of a phishing email?",
+          "How do I know if an email is a scam?",
+          "What red flags should I look for in emails?",
+          "How do scammers disguise phishing emails?"
+      ],
+      "responses": [
+          "Phishing emails often contain spelling errors, suspicious links, urgent requests for information, and unusual sender addresses.",
+          "Signs of a phishing email include generic greetings, unexpected attachments, and messages creating a sense of urgency.",
+          "Scammers disguise phishing emails by using fake sender addresses, mimicking company branding, and spoofing domain names."
+      ]
+  },
+  {
+      "intent": "phishing_link_safety",
+      "patterns": [
+          "How do I check if a link is safe?",
+          "What should I do before clicking on a link in an email?",
+          "How can I verify if an email is legitimate?"
+      ],
+      "responses": [
+          "Hover over links before clicking—if the URL looks suspicious or doesn’t match the supposed sender, don’t click.",
+          "Check the sender’s email address carefully; attackers often use addresses similar to real companies but with small differences.",
+          "If you're unsure, contact the company directly using their official website instead of responding to the email."
+      ]
+  },
+  {
+      "intent": "phishing_protection",
+      "patterns": [
+          "How can I protect myself from phishing?",
+          "What are ways to prevent phishing attacks?",
+          "What can I do to stay safe from phishing?",
+          "What cybersecurity habits can prevent phishing?",
+          "Should I use email filtering to stop phishing?",
+          "How often should I change my passwords to stay safe?"
+      ],
+      "responses": [
+          "To protect yourself, never click on suspicious links, verify sender identities, use multi-factor authentication, and report phishing attempts.",
+          "Use a spam filter to block phishing emails, and avoid opening attachments from unknown senders.",
+          "Changing your passwords regularly and using unique ones for different accounts helps prevent phishing damage.",
+          "Enable multi-factor authentication (MFA) to add an extra layer of security against phishing attempts."
+      ]
+  },
+  {
+      "intent": "phishing_response",
+      "patterns": [
+          "What should I do if I receive a phishing email?",
+          "What should I do if I fall for a phishing scam?",
+          "How do I report a phishing attack?",
+          "Who should I contact if I get scammed?"
+      ],
+      "responses": [
+          "If you receive a phishing email, don’t click on any links. Report it to your email provider and delete it immediately.",
+          "If you fall for a phishing scam, change your passwords immediately and notify your bank if financial details were stolen.",
+          "Report phishing emails to organizations like the FTC, Anti-Phishing Working Group (APWG), or your company's IT department.",
+          "If you get scammed, contact your bank or credit card provider and consider freezing your accounts if needed."
+      ]
+  },
+  {
+      "intent": "phishing_examples",
+      "patterns": [
+          "Can you give me examples of phishing emails?",
+          "What are some real phishing scams?",
+          "Show me an example of a phishing attack",
+          "What are famous phishing attacks?",
+          "Can you give a real-life phishing scenario?",
+          "How do fake banking emails work?",
+          "How do hackers impersonate companies in phishing emails?"
+      ],
+      "responses": [
+          "A common phishing example is an email pretending to be from your bank, asking you to verify your account by clicking a fake link.",
+          "A fake PayPal email might claim there's an issue with your account and prompt you to log in via a fraudulent link.",
+          "One of the biggest phishing attacks targeted Google and Facebook, tricking them into paying $100M to fake invoices.",
+          "Hackers often impersonate services like Amazon or Netflix, claiming issues with your account to make you enter your credentials."
+      ]
+  }
+]

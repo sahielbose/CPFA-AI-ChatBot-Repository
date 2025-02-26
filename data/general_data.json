@@ -1,0 +1,842 @@
+[
+    {
+      "intent": "cybersecurity_overview",
+      "patterns": [
+        "What is cybersecurity?",
+        "Explain cybersecurity in simple terms",
+        "Can you define cybersecurity?",
+        "How would you describe cybersecurity?",
+        "What does cybersecurity involve?",
+        "Describe the concept of cybersecurity",
+        "Why is cybersecurity important?",
+        "What does cybersecurity protect?",
+        "Can you provide a brief overview of cybersecurity?",
+        "What are the basics of cybersecurity?",
+        "How do you define cybersecurity risks?",
+        "What does a cybersecurity strategy look like?",
+        "What does it mean to secure digital systems?",
+        "Give me a simple explanation of cybersecurity",
+        "Where does cybersecurity apply?",
+        "What does the term cybersecurity encompass?",
+        "How would you define cyber threats?",
+        "Is cybersecurity just about hacking?",
+        "What is covered under the umbrella of cybersecurity?",
+        "How does cybersecurity relate to the internet?"
+      ],
+      "responses": [
+        "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks or unauthorized access.",
+        "It's about safeguarding data and infrastructure from threats like hacking, malware, and data breaches.",
+        "Cybersecurity ensures the confidentiality, integrity, and availability of digital information."
+      ]
+    },
+    {
+      "intent": "malware_basics",
+      "patterns": [
+        "What is malware?",
+        "Can you define malware?",
+        "Explain what malware does",
+        "How would you describe malicious software?",
+        "What's the purpose of malware?",
+        "Why do attackers create malware?",
+        "What are the main types of malware?",
+        "How dangerous is malware?",
+        "Is a virus the same as malware?",
+        "What's the difference between malware and a virus?",
+        "How does malware affect my computer?",
+        "Can malware steal my information?",
+        "What happens when a system is infected with malware?",
+        "How do I know if I have malware on my device?",
+        "What does malware look like in emails?",
+        "Where does malware usually come from?",
+        "Why is malware created by hackers?",
+        "Do phishing emails always contain malware?",
+        "Is malware always delivered via email?",
+        "How can I avoid malware?"
+      ],
+      "responses": [
+        "Malware, short for malicious software, is any program or file designed to harm or exploit a device or network.",
+        "Common malware types include viruses, worms, Trojans, ransomware, spyware, and adware.",
+        "Malware can steal data, disrupt operations, or gain unauthorized access to systems."
+      ]
+    },
+    {
+      "intent": "ransomware_explained",
+      "patterns": [
+        "What is ransomware?",
+        "Explain ransomware in simple terms",
+        "How does ransomware work?",
+        "Why do hackers use ransomware?",
+        "Is ransomware a type of malware?",
+        "How is ransomware different from other malware?",
+        "What happens during a ransomware attack?",
+        "Can you describe the impact of ransomware?",
+        "Is ransomware spread through email?",
+        "How do cybercriminals deliver ransomware?",
+        "Can ransomware lock my entire computer?",
+        "Why do attackers demand cryptocurrency in ransomware?",
+        "Can ransomware be removed without paying?",
+        "How can I protect against ransomware?",
+        "What are the famous ransomware attacks?",
+        "Is there a way to decrypt files without paying ransomware?",
+        "What should I do if I’m hit by ransomware?",
+        "Do antivirus programs detect ransomware?",
+        "Is phishing related to ransomware?",
+        "Can backups help with ransomware attacks?"
+      ],
+      "responses": [
+        "Ransomware is a type of malware that encrypts your files and demands payment for their release.",
+        "Attackers often spread ransomware via infected email attachments or malicious links.",
+        "Having regular backups and up-to-date security software is crucial for preventing ransomware damage."
+      ]
+    },
+    {
+      "intent": "spyware_keyloggers",
+      "patterns": [
+        "What is spyware?",
+        "Explain how spyware works",
+        "Is spyware a type of malware?",
+        "What is a keylogger?",
+        "How does a keylogger capture data?",
+        "What are the dangers of keyloggers?",
+        "Can spyware steal personal information?",
+        "Do hackers use keyloggers for passwords?",
+        "How can I detect spyware on my device?",
+        "How is spyware installed on a computer?",
+        "What are signs of spyware infection?",
+        "How do I remove spyware?",
+        "Is antivirus effective against spyware?",
+        "What can a keylogger do on my system?",
+        "Why are keyloggers used by cybercriminals?",
+        "Are there legal uses for keyloggers?",
+        "Can spyware be embedded in legitimate software?",
+        "What is the difference between spyware and adware?",
+        "Does spyware require user interaction to install?",
+        "How can I protect myself from keyloggers?"
+      ],
+      "responses": [
+        "Spyware secretly monitors and collects information about a user’s activities without their knowledge.",
+        "A keylogger is a specific type of spyware that records every keystroke to capture data like usernames, passwords, or credit card details.",
+        "Using anti-spyware tools and keeping software updated can help detect and remove spyware or keyloggers."
+      ]
+    },
+    {
+      "intent": "ddos_attacks",
+      "patterns": [
+        "What is a DDoS attack?",
+        "Explain Distributed Denial of Service attacks",
+        "How do hackers launch DDoS attacks?",
+        "What happens during a DDoS attack?",
+        "Is a DDoS attack illegal?",
+        "Can a DDoS attack take down websites?",
+        "How can I protect my site from DDoS attacks?",
+        "Are DDoS attacks common?",
+        "What is the difference between DoS and DDoS?",
+        "Can DDoS attacks target mobile apps?",
+        "How do botnets relate to DDoS?",
+        "Is there a way to mitigate a DDoS in progress?",
+        "Why do attackers perform DDoS attacks?",
+        "Are DDoS attacks hard to trace?",
+        "How long can a DDoS attack last?",
+        "What is a reflection DDoS attack?",
+        "What is a volumetric DDoS attack?",
+        "Do I need special hardware to handle DDoS attacks?",
+        "Can cloud services help prevent DDoS?",
+        "What are signs that my network is under DDoS?"
+      ],
+      "responses": [
+        "A Distributed Denial of Service (DDoS) attack aims to overwhelm a service or network by flooding it with traffic from multiple sources.",
+        "Attackers often use botnets, a network of compromised devices, to send massive traffic to a target system.",
+        "Mitigation methods include using firewalls, load balancers, and cloud-based anti-DDoS services."
+      ]
+    },
+    {
+      "intent": "sql_injection_xss",
+      "patterns": [
+        "What is SQL injection?",
+        "Explain how SQL injection works",
+        "How do attackers use SQL injection?",
+        "What is the impact of SQL injection?",
+        "Can SQL injection steal data?",
+        "What is cross-site scripting (XSS)?",
+        "How does XSS work?",
+        "Is XSS part of the OWASP Top 10?",
+        "Can XSS steal cookies?",
+        "How do websites protect against XSS?",
+        "What happens during an XSS attack?",
+        "Is SQL injection still common?",
+        "How do I prevent SQL injection attacks?",
+        "Can prepared statements stop SQL injection?",
+        "What are stored XSS attacks?",
+        "What is the difference between reflected and stored XSS?",
+        "How can I test a site for XSS vulnerabilities?",
+        "What is DOM-based XSS?",
+        "Are SQL injection and XSS related?",
+        "Why do these vulnerabilities exist?"
+      ],
+      "responses": [
+        "SQL injection is a code injection technique that exploits vulnerabilities in database query handling, allowing attackers to manipulate or access sensitive data.",
+        "Cross-site scripting (XSS) is when malicious scripts are injected into legitimate websites, potentially stealing user data or performing unauthorized actions.",
+        "Preventing these attacks involves input validation, sanitizing user inputs, and using secure coding practices."
+      ]
+    },
+    {
+      "intent": "zero_day_exploits",
+      "patterns": [
+        "What is a zero-day exploit?",
+        "How do zero-day vulnerabilities work?",
+        "Explain the term zero-day",
+        "Are zero-day attacks dangerous?",
+        "Why are zero-day exploits valuable to hackers?",
+        "How do researchers discover zero-day bugs?",
+        "Is there a defense against zero-day attacks?",
+        "Who typically finds zero-day vulnerabilities?",
+        "How can companies respond to zero-day threats?",
+        "Can antiviruses detect zero-day attacks?",
+        "What happens when a zero-day is found?",
+        "Are zero-day exploits sold on the dark web?",
+        "Do governments use zero-day vulnerabilities?",
+        "How do zero-day attacks usually start?",
+        "Is patching effective for zero-day exploits?",
+        "How do I protect my system from zero-days?",
+        "What's the difference between zero-day and known vulnerabilities?",
+        "Are zero-day attacks part of advanced persistent threats?",
+        "Can zero-days be used in targeted attacks?",
+        "Is a zero-day vulnerability always unknown to the vendor?"
+      ],
+      "responses": [
+        "A zero-day exploit takes advantage of a previously unknown vulnerability, giving defenders no time to patch it before attacks occur.",
+        "These exploits are highly sought after on the black market due to their stealth and potential impact.",
+        "Staying current with software updates and using security tools can help mitigate the damage from zero-day attacks."
+      ]
+    },
+    {
+      "intent": "security_best_practices",
+      "patterns": [
+        "What are general cybersecurity best practices?",
+        "How can I keep my system secure?",
+        "What are some habits for staying safe online?",
+        "What practices protect my data effectively?",
+        "How do I improve my cybersecurity posture?",
+        "What are common security guidelines?",
+        "Can you recommend some cybersecurity tips?",
+        "What steps should I take to avoid hacks?",
+        "How do I practice safe browsing?",
+        "How can organizations maintain secure networks?",
+        "What’s the most important cybersecurity practice?",
+        "How do strong passwords help?",
+        "Is antivirus enough for protection?",
+        "What is the role of software updates?",
+        "Should I worry about my home Wi-Fi security?",
+        "How does multi-factor authentication help?",
+        "Should I back up my data regularly?",
+        "Are VPNs a good cybersecurity measure?",
+        "How can I safely handle personal information?",
+        "What should I do if I suspect a security breach?"
+      ],
+      "responses": [
+        "Best practices include strong passwords, regular software updates, using antivirus, and avoiding suspicious links or attachments.",
+        "Enable multi-factor authentication where possible and perform regular data backups to reduce potential damage.",
+        "Stay informed about new threats and educate yourself or your team on safe cybersecurity habits."
+      ]
+    },
+    {
+      "intent": "password_security",
+      "patterns": [
+        "How do I create a strong password?",
+        "What makes a password secure?",
+        "Why are unique passwords important?",
+        "Is it safe to reuse passwords?",
+        "How often should I change my passwords?",
+        "Should I use a password manager?",
+        "What is the recommended length for a password?",
+        "Why do sites require complex passwords?",
+        "Should I use passphrases?",
+        "Can I write down my password somewhere?",
+        "How do hackers crack passwords?",
+        "What is brute force attack on passwords?",
+        "Is two-factor authentication better than a strong password alone?",
+        "How do I avoid common password mistakes?",
+        "What are password spraying attacks?",
+        "Is storing passwords in my browser safe?",
+        "What are some password manager recommendations?",
+        "Why are random passwords safer?",
+        "Should I use special characters in my password?",
+        "What happens if my password is leaked in a data breach?"
+      ],
+      "responses": [
+        "Create a strong password by using a mix of uppercase, lowercase, numbers, and symbols, and avoid common words or personal info.",
+        "Longer passphrases (e.g., multiple random words) are often more secure than short, complex passwords.",
+        "Password managers help generate and securely store unique credentials for different services."
+      ]
+    },
+    {
+      "intent": "authentication_methods",
+      "patterns": [
+        "What are the common authentication methods?",
+        "How does multi-factor authentication work?",
+        "What is 2FA?",
+        "Why is multi-factor authentication important?",
+        "What are biometrics in cybersecurity?",
+        "How do tokens or smart cards authenticate users?",
+        "What is the difference between passwords and passphrases?",
+        "Is SMS-based 2FA secure enough?",
+        "What is TOTP authentication?",
+        "How do authenticator apps work?",
+        "Are hardware security keys better than software-based MFA?",
+        "Why is single-factor authentication weak?",
+        "Can I combine multiple authentication methods?",
+        "How does facial recognition fit into authentication?",
+        "What is adaptive authentication?",
+        "How does fingerprint authentication work?",
+        "Is voice recognition used for authentication?",
+        "How do push notifications for 2FA work?",
+        "Can passwords alone be considered secure today?",
+        "What are the risks of using only one authentication factor?"
+      ],
+      "responses": [
+        "Common authentication methods include something you know (password), something you have (token), and something you are (biometric).",
+        "Multi-factor authentication uses two or more types of factors to increase security.",
+        "Many services now support 2FA or MFA through apps, SMS, or hardware keys to reduce unauthorized access."
+      ]
+    },
+    {
+      "intent": "data_encryption",
+      "patterns": [
+        "What is data encryption?",
+        "Explain the purpose of encryption",
+        "How does encryption protect information?",
+        "What is symmetric encryption?",
+        "What is asymmetric encryption?",
+        "Why is encryption important for data security?",
+        "Can encryption be broken?",
+        "How do I encrypt my files?",
+        "Is encryption used for emails?",
+        "What is end-to-end encryption?",
+        "How do websites use SSL/TLS for encryption?",
+        "Is HTTPS the same as encryption?",
+        "What are common encryption algorithms?",
+        "Are there encryption standards I should know?",
+        "How secure is AES encryption?",
+        "What is public key cryptography?",
+        "Why do we need private and public keys?",
+        "Do messaging apps use encryption?",
+        "What is the difference between encoding and encryption?",
+        "How does encryption help with compliance regulations?"
+      ],
+      "responses": [
+        "Encryption is the process of converting data into a coded form to prevent unauthorized access.",
+        "Symmetric encryption uses the same key for encryption and decryption, while asymmetric uses a pair of keys (public and private).",
+        "Popular algorithms like AES and RSA are widely used for secure communication and data protection."
+      ]
+    },
+    {
+      "intent": "network_security",
+      "patterns": [
+        "What is network security?",
+        "How do I secure my home network?",
+        "Explain how firewalls protect networks",
+        "Why is a secure router setup important?",
+        "What are common network vulnerabilities?",
+        "How can I detect intrusions on my network?",
+        "Is Wi-Fi encryption necessary?",
+        "How does WPA3 differ from WPA2?",
+        "Should I change my router’s default password?",
+        "What is an intrusion detection system (IDS)?",
+        "How do I set up a VPN on my router?",
+        "Why do businesses invest in network security appliances?",
+        "What is a DMZ in networking?",
+        "Can a guest network improve security?",
+        "How do VLANs help with network security?",
+        "Are wired networks safer than wireless networks?",
+        "What is port scanning?",
+        "Is network segmentation important?",
+        "How does an IPS differ from an IDS?",
+        "What is Zero Trust networking?"
+      ],
+      "responses": [
+        "Network security involves policies, practices, and hardware/software solutions to protect a network’s integrity and data.",
+        "Basic steps include using strong Wi-Fi encryption, changing default credentials, and using firewalls or IDS/IPS systems.",
+        "Segmenting networks and monitoring traffic help identify and isolate suspicious activity."
+      ]
+    },
+    {
+      "intent": "firewalls_ids_ips",
+      "patterns": [
+        "What is a firewall in cybersecurity?",
+        "How do firewalls block attacks?",
+        "Should I use a firewall at home?",
+        "What is the difference between a hardware and a software firewall?",
+        "What is an intrusion prevention system (IPS)?",
+        "What does an IDS do?",
+        "How does IDS differ from IPS?",
+        "Can a firewall stop all attacks?",
+        "What are next-generation firewalls?",
+        "Do firewalls inspect encrypted traffic?",
+        "Can IPS block zero-day attacks?",
+        "Which is better, firewall or IDS?",
+        "Why do companies use multiple layers of defense?",
+        "Are free firewalls sufficient?",
+        "How can I tell if my firewall is working?",
+        "What logs should I check for firewall activity?",
+        "Do cloud environments use firewalls?",
+        "Is IDS still relevant if I have a firewall?",
+        "How do I choose between IDS and IPS?",
+        "Is IPS automatically blocking threats or just alerting?"
+      ],
+      "responses": [
+        "Firewalls act as a barrier between trusted and untrusted networks, filtering incoming and outgoing traffic based on rules.",
+        "Intrusion Detection Systems (IDS) monitor traffic for signs of intrusion, while Intrusion Prevention Systems (IPS) can take action to block threats.",
+        "Combining firewalls, IDS, and IPS with other security measures creates a more robust defense."
+      ]
+    },
+    {
+      "intent": "cloud_security",
+      "patterns": [
+        "What is cloud security?",
+        "How do I protect data in the cloud?",
+        "Is cloud storage safe?",
+        "What are common threats to cloud environments?",
+        "How do cloud providers secure my data?",
+        "Can data be encrypted in the cloud?",
+        "What is shared responsibility model in cloud security?",
+        "Is multi-factor authentication needed for cloud accounts?",
+        "How do I secure AWS or Azure environments?",
+        "What are cloud access security brokers (CASBs)?",
+        "Why is misconfiguration a big cloud risk?",
+        "Are public clouds more vulnerable than private clouds?",
+        "How does compliance work in the cloud?",
+        "What is a hybrid cloud security approach?",
+        "Do I need to worry about insider threats in the cloud?",
+        "What is container security in cloud environments?",
+        "How do I manage identities in the cloud?",
+        "Can cloud providers be hacked?",
+        "How can I prevent data leaks from cloud storage?",
+        "What should I do if my cloud account is compromised?"
+      ],
+      "responses": [
+        "Cloud security encompasses the technologies, policies, and services used to protect cloud data and infrastructure.",
+        "A shared responsibility model means the cloud provider secures the underlying infrastructure, while customers must secure their own data and configurations.",
+        "Encrypting data both at rest and in transit, and using strong access controls, are key best practices for cloud security."
+      ]
+    },
+    {
+      "intent": "iot_security",
+      "patterns": [
+        "What is IoT security?",
+        "How do I secure my smart home devices?",
+        "Are IoT devices vulnerable to hacking?",
+        "What are the common threats in IoT?",
+        "Do IoT devices need regular updates?",
+        "How do attackers compromise IoT devices?",
+        "What is a botnet in the context of IoT?",
+        "Should I change default passwords on IoT devices?",
+        "What happens if my smart camera is hacked?",
+        "Is a smart fridge really a cybersecurity threat?",
+        "Are IoT devices secure by default?",
+        "What is the Mirai botnet?",
+        "How can I ensure secure firmware updates for IoT?",
+        "Does IoT require separate networks?",
+        "Should I isolate IoT devices from my main network?",
+        "Can IoT devices perform DDoS attacks?",
+        "Are there specific IoT security standards?",
+        "Do I need a firewall for IoT devices?",
+        "Can strong Wi-Fi encryption protect IoT devices?",
+        "Is IoT security a growing concern?"
+      ],
+      "responses": [
+        "IoT security focuses on protecting internet-connected devices like smart cameras, thermostats, and other household or industrial items.",
+        "Common best practices include changing default credentials, applying firmware updates, and isolating IoT devices on a separate network.",
+        "Unsecured IoT devices can be recruited into botnets, leading to large-scale DDoS attacks or data breaches."
+      ]
+    },
+    {
+      "intent": "social_engineering",
+      "patterns": [
+        "What is social engineering in cybersecurity?",
+        "How do scammers manipulate people?",
+        "Explain social engineering attacks",
+        "What are common social engineering tactics?",
+        "How does pretexting work?",
+        "Is phishing a form of social engineering?",
+        "What is a baiting attack?",
+        "How can I avoid social engineering scams?",
+        "Why are humans considered the weakest link?",
+        "Are phone scams social engineering?",
+        "How do criminals gather info for social engineering?",
+        "What is tailgating in physical security?",
+        "How do I recognize a social engineering attempt?",
+        "Do hackers use psychological tricks?",
+        "Why is trust exploitation a key element?",
+        "Are social engineers always hackers?",
+        "How does impersonation help attackers?",
+        "Can social engineering happen on social media?",
+        "What is quid pro quo attack?",
+        "How can organizations train staff against social engineering?"
+      ],
+      "responses": [
+        "Social engineering involves manipulating people into divulging confidential information or performing actions that compromise security.",
+        "Tactics include phishing, impersonation, pretexting, baiting, and exploiting trust or curiosity.",
+        "Regular awareness training and cautious skepticism are essential to defend against social engineering."
+      ]
+    },
+    {
+      "intent": "physical_security",
+      "patterns": [
+        "What is physical security in cybersecurity?",
+        "How does physical security relate to IT security?",
+        "Can someone steal data by physically accessing devices?",
+        "What are physical security controls?",
+        "Should servers be in locked rooms?",
+        "Are security cameras part of physical security?",
+        "How do I secure hardware devices?",
+        "What is the importance of access badges?",
+        "Why do data centers have strict access controls?",
+        "Are physical theft and tampering real threats?",
+        "Can insider threats bypass physical security?",
+        "How do I keep my laptop physically secure?",
+        "Is disk encryption a part of physical security?",
+        "Do secure containers matter for sensitive documents?",
+        "Why do offices use security guards?",
+        "What happens if an attacker physically plugs into a network port?",
+        "How can I secure USB ports from unauthorized use?",
+        "Are biometrics used for physical access?",
+        "Can physical attacks lead to cyber breaches?",
+        "How do organizations combine physical and cyber security policies?"
+      ],
+      "responses": [
+        "Physical security measures protect hardware, data centers, and facilities from unauthorized access or damage.",
+        "Devices and networks can be compromised if an attacker gains physical access, so locked rooms, access badges, and surveillance are important.",
+        "Combining physical and cyber controls helps prevent both direct theft of equipment and digital data breaches."
+      ]
+    },
+    {
+      "intent": "incident_response",
+      "patterns": [
+        "What is incident response?",
+        "How do companies handle cyber incidents?",
+        "Explain the steps of incident response",
+        "Why is incident response planning important?",
+        "What does an incident response team do?",
+        "Is detection the first step in incident response?",
+        "How do I create an incident response plan?",
+        "What happens after a data breach is discovered?",
+        "What is containment in incident response?",
+        "How do I investigate a security incident?",
+        "Why is communication crucial during an incident?",
+        "Should I contact law enforcement for cyber incidents?",
+        "How do I recover from a cyber attack?",
+        "What is post-incident analysis?",
+        "How does incident response minimize damage?",
+        "Is incident response only for big companies?",
+        "Does incident response involve digital forensics?",
+        "How quickly should I act on a security alert?",
+        "What tools are commonly used for incident response?",
+        "Why is documentation important in incident response?"
+      ],
+      "responses": [
+        "Incident response is a structured approach to detecting, containing, and remediating security breaches or cyber attacks.",
+        "Key steps include preparation, detection, containment, eradication, recovery, and lessons learned.",
+        "Having a well-defined plan and trained team helps minimize the impact of security incidents."
+      ]
+    },
+    {
+      "intent": "digital_forensics",
+      "patterns": [
+        "What is digital forensics?",
+        "How do investigators analyze cyber crimes?",
+        "What tools are used in digital forensics?",
+        "Explain the purpose of digital forensics",
+        "Is digital forensics only about recovering deleted data?",
+        "How does chain of custody work in forensics?",
+        "What are the stages of digital forensics investigation?",
+        "Can digital forensics recover encrypted files?",
+        "Why is evidence preservation crucial?",
+        "What is memory forensics?",
+        "Is digital forensics used in court?",
+        "How do forensics experts find hidden malware?",
+        "How do you collect log data for forensics?",
+        "What is a forensic image of a hard drive?",
+        "Are there certifications for digital forensics?",
+        "Why is digital forensics important for incident response?",
+        "What is mobile device forensics?",
+        "Can forensics trace hacking back to the source?",
+        "How do I become a digital forensics expert?",
+        "What is live forensics in a running system?"
+      ],
+      "responses": [
+        "Digital forensics involves identifying, preserving, analyzing, and documenting digital evidence for investigations.",
+        "It covers various areas like computer forensics, network forensics, mobile forensics, and memory forensics.",
+        "Proper procedures and chain of custody are essential to maintain the integrity of evidence for legal use."
+      ]
+    },
+    {
+      "intent": "compliance_regulations",
+      "patterns": [
+        "What are cybersecurity compliance regulations?",
+        "Explain GDPR requirements",
+        "Why is HIPAA important for cybersecurity?",
+        "What is PCI DSS compliance?",
+        "Do all companies need to follow some regulation?",
+        "How do I know which compliance standard applies?",
+        "What are the penalties for non-compliance?",
+        "Is data encryption mandatory under compliance?",
+        "How do I prepare for a compliance audit?",
+        "What is the difference between GDPR and CCPA?",
+        "Are small businesses affected by these regulations?",
+        "How do I ensure my website is GDPR-compliant?",
+        "What is the role of data privacy in compliance?",
+        "Is ISO 27001 a compliance framework?",
+        "What does compliance mean for cloud services?",
+        "Is compliance the same as security?",
+        "What is NIST and how does it relate to compliance?",
+        "How often do I need to update compliance measures?",
+        "Can compliance audits detect security gaps?",
+        "Do compliance standards change frequently?"
+      ],
+      "responses": [
+        "Cybersecurity compliance involves meeting legal, regulatory, or industry standards to protect data and systems.",
+        "Examples include GDPR in the EU, HIPAA for healthcare, PCI DSS for payment card data, and CCPA in California.",
+        "Staying compliant often requires policies, encryption, regular audits, and ongoing employee training."
+      ]
+    },
+    {
+      "intent": "cybersecurity_careers",
+      "patterns": [
+        "How do I start a career in cybersecurity?",
+        "What jobs are available in cybersecurity?",
+        "Do I need a degree for cybersecurity?",
+        "Which certifications are best for cybersecurity?",
+        "How do I learn ethical hacking?",
+        "Is programming needed in cybersecurity?",
+        "What are the top cybersecurity skills?",
+        "What does a SOC analyst do?",
+        "How do I become a penetration tester?",
+        "Are there entry-level jobs in cybersecurity?",
+        "What is the role of a cybersecurity consultant?",
+        "How can I transition from IT to cybersecurity?",
+        "Is there a demand for cybersecurity professionals?",
+        "What is a bug bounty program?",
+        "Should I learn about networks before cybersecurity?",
+        "What is the difference between Red Team and Blue Team?",
+        "How do I get hands-on practice in cybersecurity?",
+        "What is a common cybersecurity career path?",
+        "How important is a security clearance?",
+        "What soft skills help in cybersecurity?"
+      ],
+      "responses": [
+        "Cybersecurity offers roles like SOC analyst, penetration tester, security engineer, consultant, and more.",
+        "Certifications (e.g., CompTIA Security+, CISSP, CEH) can help you gain specialized skills and credibility.",
+        "Practical experience, lab exercises, and continuous learning are crucial for a successful cybersecurity career."
+      ]
+    },
+    {
+      "intent": "threat_intelligence",
+      "patterns": [
+        "What is threat intelligence?",
+        "How do companies gather threat intelligence?",
+        "Why is threat intelligence important?",
+        "What is OSINT?",
+        "Can threat intelligence prevent attacks?",
+        "How do I integrate threat intelligence into security operations?",
+        "Is threat intelligence about tracking hackers?",
+        "What sources do threat intelligence analysts use?",
+        "How accurate is threat intelligence data?",
+        "Is threat intelligence automated?",
+        "How do I start with OSINT?",
+        "What is a threat intelligence feed?",
+        "Are there free threat intelligence tools?",
+        "How do I validate threat intelligence?",
+        "What is tactical vs. strategic threat intelligence?",
+        "How does threat intelligence help incident response?",
+        "Can threat intelligence predict future attacks?",
+        "What role does dark web monitoring play?",
+        "Does machine learning help in threat intelligence?",
+        "How do companies share threat intelligence with each other?"
+      ],
+      "responses": [
+        "Threat intelligence involves collecting and analyzing information about potential or current threats to inform defensive strategies.",
+        "OSINT, or Open Source Intelligence, uses publicly available data to discover threat actor activities or indicators of compromise.",
+        "Organizations use threat intelligence to stay ahead of attackers by understanding their tactics, techniques, and procedures."
+      ]
+    },
+    {
+      "intent": "penetration_testing",
+      "patterns": [
+        "What is penetration testing?",
+        "How do you conduct a pen test?",
+        "Is penetration testing legal hacking?",
+        "What tools are used in penetration testing?",
+        "Why do companies need pen tests?",
+        "What is white box vs. black box testing?",
+        "How often should pen tests be done?",
+        "What are the phases of a pen test?",
+        "Is pen testing part of compliance?",
+        "Can pen testing damage systems?",
+        "Should I do internal or external pen tests?",
+        "What is a vulnerability assessment vs. pen test?",
+        "Is social engineering tested in pen tests?",
+        "How do I report pen test findings?",
+        "Are automated scans considered pen tests?",
+        "Is physical security included in pen testing?",
+        "What is red team vs. blue team exercise?",
+        "How do you get permission for a pen test?",
+        "What skill set do pen testers need?",
+        "Do pen testers need to know programming?"
+      ],
+      "responses": [
+        "Penetration testing is the process of simulating real attacks on a system to find security weaknesses before malicious actors do.",
+        "Pen testers follow a methodical approach: planning, reconnaissance, exploitation, reporting, and remediation recommendations.",
+        "Ethical hacking requires explicit permission and well-defined scope to ensure legal and safe testing."
+      ]
+    },
+    {
+      "intent": "cyber_insurance",
+      "patterns": [
+        "What is cyber insurance?",
+        "How does cyber liability insurance work?",
+        "Why do businesses buy cyber insurance?",
+        "Is cyber insurance mandatory?",
+        "Does cyber insurance cover data breaches?",
+        "Can it cover ransomware payments?",
+        "How much does cyber insurance cost?",
+        "What are the typical policies in cyber insurance?",
+        "Does cyber insurance cover legal fees?",
+        "Can individuals get cyber insurance?",
+        "What is not covered by cyber insurance?",
+        "Do insurers require specific security measures?",
+        "How does cyber insurance help after an attack?",
+        "Are insurance premiums based on risk assessment?",
+        "Can cyber insurance replace cybersecurity measures?",
+        "Is there a limit to coverage amounts?",
+        "How do I choose a cyber insurance policy?",
+        "Do insurers investigate the breach details?",
+        "What is the claims process for cyber incidents?",
+        "Has cyber insurance become more popular recently?"
+      ],
+      "responses": [
+        "Cyber insurance helps organizations manage financial risks from data breaches, ransomware, and other cyber incidents.",
+        "Policies vary but may cover legal fees, notification costs, and recovery expenses after a breach.",
+        "It’s not a substitute for good security; insurers often require certain safeguards to qualify for coverage."
+      ]
+    },
+    {
+      "intent": "nation_state_attacks",
+      "patterns": [
+        "What are nation-state cyber attacks?",
+        "How do governments engage in cyber warfare?",
+        "Are state-sponsored hackers a real threat?",
+        "What is APT in cybersecurity?",
+        "Which countries have advanced hacking teams?",
+        "Why do nation-states hack each other?",
+        "Are they targeting critical infrastructure?",
+        "What are examples of nation-state attacks?",
+        "Is Stuxnet a nation-state attack?",
+        "How can companies defend against state-sponsored threats?",
+        "Do nation-states hire mercenary hackers?",
+        "How do these attacks differ from regular cybercrime?",
+        "Is it possible to attribute a cyber attack to a nation-state?",
+        "Why do states focus on espionage?",
+        "Are election systems a target for nation-states?",
+        "Are zero-day exploits used in state attacks?",
+        "Can smaller countries launch sophisticated attacks?",
+        "What is cyber espionage?",
+        "Do private companies collaborate with governments to mitigate these threats?",
+        "How do international laws address nation-state cyber attacks?"
+      ],
+      "responses": [
+        "Nation-state cyber attacks are sophisticated operations backed by government resources, often targeting critical infrastructure or strategic data.",
+        "These attacks are typically long-term, stealthy, and use advanced techniques like zero-day exploits.",
+        "Attribution is challenging; organizations can strengthen defense by focusing on threat intelligence and robust security frameworks."
+      ]
+    },
+    {
+      "intent": "zero_trust_model",
+      "patterns": [
+        "What is the zero trust security model?",
+        "Why is zero trust important?",
+        "How does zero trust differ from traditional security?",
+        "Is zero trust applicable to cloud environments?",
+        "How do I implement zero trust in my organization?",
+        "What does never trust, always verify mean?",
+        "Is micro-segmentation part of zero trust?",
+        "Does zero trust eliminate the need for VPNs?",
+        "How do users authenticate in zero trust architecture?",
+        "Is zero trust relevant for remote workforces?",
+        "Do I need specific tools for zero trust?",
+        "How does zero trust address insider threats?",
+        "Can zero trust reduce lateral movement?",
+        "Is zero trust a framework or a product?",
+        "How does continuous verification work?",
+        "Do endpoints matter in zero trust?",
+        "How does encryption fit into zero trust?",
+        "Is zero trust only for large enterprises?",
+        "Can small businesses adopt zero trust easily?",
+        "What are the main benefits of zero trust?"
+      ],
+      "responses": [
+        "Zero trust is a security concept that assumes no user or device is inherently trusted, enforcing strict verification for every access request.",
+        "Core elements include micro-segmentation, continuous authentication, and least-privilege access policies.",
+        "It applies across on-premise and cloud environments, helping prevent unauthorized lateral movement."
+      ]
+    },
+    {
+      "intent": "vpn_and_tor",
+      "patterns": [
+        "What is a VPN?",
+        "How does a VPN protect my privacy?",
+        "Does a VPN hide my browsing history?",
+        "What is Tor and how does it work?",
+        "Is Tor browser safe to use?",
+        "How does Tor differ from a VPN?",
+        "Can a VPN or Tor protect me from hackers?",
+        "Should I always use a VPN on public Wi-Fi?",
+        "Does Tor make me completely anonymous?",
+        "What are the limitations of a VPN?",
+        "Can my ISP see my traffic with a VPN?",
+        "Is it illegal to use Tor?",
+        "Are VPNs legal everywhere?",
+        "Which VPN protocols are secure?",
+        "Does using Tor slow down my connection?",
+        "Can I combine Tor and a VPN?",
+        "How do I choose a reliable VPN provider?",
+        "Can the exit node in Tor see my data?",
+        "Are free VPNs safe to use?",
+        "What is the best way to stay anonymous online?"
+      ],
+      "responses": [
+        "A VPN (Virtual Private Network) encrypts your internet traffic and routes it through a secure server, hiding your IP address.",
+        "Tor (The Onion Router) uses a volunteer-run network to anonymize your traffic by bouncing it across multiple relays.",
+        "Both VPNs and Tor enhance privacy, but neither is a magic bullet. Combine them with safe browsing habits for stronger security."
+      ]
+    },
+    {
+      "intent": "dark_web_explained",
+      "patterns": [
+        "What is the dark web?",
+        "How do I access the dark web?",
+        "Is the dark web illegal?",
+        "What kind of content is on the dark web?",
+        "What is the difference between dark web and deep web?",
+        "Are dark web marketplaces for illegal goods?",
+        "Can I get hacked on the dark web?",
+        "What is the role of Tor in the dark web?",
+        "Do cybercriminals use the dark web?",
+        "Is it safe to browse the dark web?",
+        "What are onion services?",
+        "Is there legal content on the dark web?",
+        "Do law enforcement monitor the dark web?",
+        "What are risks of exploring the dark web?",
+        "Can I be traced if I use the dark web?",
+        "Does the dark web only contain criminal activities?",
+        "How do I stay anonymous on the dark web?",
+        "Are there whistleblower platforms on the dark web?",
+        "Should I use a VPN with Tor?",
+        "Has the dark web grown over time?"
+      ],
+      "responses": [
+        "The dark web is a part of the internet accessible only via specialized software like Tor, often used for both privacy and illicit activities.",
+        "While not all dark web content is illegal, it’s a hub for black markets and cybercriminal forums.",
+        "Users should exercise caution and understand the legal and security risks before venturing onto the dark web."
+      ]
+    }
+  ]
