@@ -1,14 +1,38 @@
 import numpy as np
 import pandas as pd
+import json
+import csv
 
-# Cleaning Cybersecurity  dataset
-df = pd.read_csv('data/raw/cyber_data.csv')
 
-for index, row in df.iterrows():
-    ans_col = row['Answer']
-    ans = row[ans_col]
-    df.at[index, 'Answer'] = ans
+def flatten_data(data, category):
+    result = []
+    for obj in data:  
+        intent = obj["intent"]
+        for question in obj["patterns"]:
+            resultObj = {"intent" : intent, "question" : question, "category" : category}
+            result.append(resultObj)
+    return result
 
-df.drop(['A', 'B', 'C', 'D'], axis=1,inplace=True)
+output = []
+with open('data/deepfake_dataset.json', 'r') as file:
+    data = json.load(file)
+    output.extend(flatten_data(data, "deepfake"))
 
-df.to_csv('data/processed/cyber_data.csv', index=False)
+with open('data/general_data.json', 'r') as file:
+    data = json.load(file)
+    output.extend(flatten_data(data, "general"))
+
+with open('data/malware_dataset.json', 'r') as file:
+    data = json.load(file)
+    output.extend(flatten_data(data, "malware"))
+
+with open('data/phishing_emails_dataset.json', 'r') as file:
+    data = json.load(file)
+    output.extend(flatten_data(data, "phishing"))
+
+
+with open('data/processed/cyber_data.csv', 'w', newline='') as csvfile:
+    fieldnames = ['intent', 'question', 'category']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(output)
